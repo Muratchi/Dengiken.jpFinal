@@ -1,0 +1,241 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.inner{
+	max-width: 89em;
+}
+.margin-center{
+	margin: 0 auto;
+}
+/*index.html*/
+.nav{
+	width: 100%;
+	line-height: 3em;
+	position: fixed;
+	background-color: #ddd;
+	z-index: 100;
+}
+header nav{
+	
+	text-align: center;
+
+}
+.inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.nav-link{
+	margin: 0 2em;
+}
+.blog{
+	position: relative;
+	left: 8em;
+}
+.page-sec{
+	width: 100%;
+	background-color: #dfdfdf;
+	border-bottom: 1px #aaa solid;
+}
+.landscape{
+	height: 75%;
+}
+.intro{
+	padding: 8em 0;
+}
+.intro-wrap{
+	max-width: 89em;
+	display: flex;
+	flex-wrap: wrap;
+}
+.intro-one{
+	height: 13em;
+	background-color: #cfcfcf;
+	width: 89em;
+	display: flex;
+	margin: 1.5em 0;
+
+}
+.intro-top{
+	display: flex;
+	justify-content: center;
+}
+.intro-top h1{
+	font-size: 2.5em;
+	background-color: #afafaf;
+	margin-top: 0.5em;
+}	
+.intro-top p{
+	text-align: center;
+	margin-top: 1em;
+	background-color: #afafaf;
+}
+.intro-illust{
+	width: 8em;
+	height: 8em;
+	background-color: #bfbfbf;
+		margin-top: 2.5em;
+}
+.intro-text{
+	width: 34em;
+	height: 8em;
+	background-color: #bfbfbf;
+	margin-top: 2.5em;
+}
+.intro-text h1{
+	font-size: 1.7em;
+	margin-left: 1em;
+	margin-bottom: 0.1em;
+}
+.intro-text p{
+	margin-left: 2em;
+}
+.intro-left .intro-illust{
+	margin-left: 2em;
+}
+.intro-left .intro-text{
+	margin-left: 2em;
+}
+.intro-right .intro-illust{
+	margin-left: 2em;
+}
+.intro-right .intro-text{
+	margin-left: 43em;
+}
+.topic-label{
+	width: 100%;
+	line-height: 2em;
+	background-color: #cfcfcf;
+	font-size: 3em;
+	text-align: center;
+}
+.topics{
+	display: flex;
+	flex-wrap: wrap;
+	height: 75%;
+}
+.topic{
+	width: 33.33333333333333%;
+	height: 33.33333333333%;
+	background-color: #cfcfcf;
+	position: relative;
+	overflow: hidden;
+}
+.topic-image{
+	width: 100%;
+	height: 100%;
+	background-image: url(http://unity3d.com/sites/default/files/game_articles/mobile%20header.jpg);
+	background-size: cover;
+}
+.topic-cover{
+	width: 120%;
+	height: 120%;
+	background-color: rgba(255,255,255,0.3);
+	z-index: 10;
+	position: relative;
+	top: -110%;
+	left: -10%;
+	display: none;
+}
+.topic-cover h1{
+	font-size: 3em;
+	position: relative;
+	top: 25%;
+	text-align: center;
+}
+.topic-more{
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+footer{
+	width: 100%;
+	height: 20%;
+}
+/*events*/
+#wrap{
+	padding-bottom: 10px;
+}
+#bg0,#bg1,#bg2,#bg3,#bg4,#bg5,#bg6,#bg7,#bg8{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-attachment: fixed;
+}
+#bg1 {background-image:url(images/bg1.jpg);}
+#bg2 {background-image:url(images/bg2.jpg);}
+#bg3 {background-image:url(images/bg3.jpg);}
+#bg4 {background-image:url(images/bg4.jpg);}
+#bg5 {background-image:url(images/bg5.jpg);}
+#bg6 {background-image:url(images/bg6.jpg);}
+#bg7 {background-image:url(images/bg7.jpg);}
+#bg8 {background-image:url(images/bg8.jpg);}
+#bg9 {background-image:url(images/bg9.jpg);}
+.event-main{
+	width: 100%;
+	height: 100%;
+	background-color: #dfdfdf;
+}
+.event-wrap{
+	background-color: #cfcfcf;
+	width: 89em;
+	height:34em;
+	position: relative;
+	top: 8em;
+	text-align: center;
+}
+.event-illust{
+	height: 8em;
+	width: 8em;
+	background-color: #bfbfbf;
+	margin-left: 40.5em;
+	position: relative;
+	top: 3em;
+}
+.event-title{
+	font-size: 5em;
+	position: relative;
+	top: 0.8em;
+}
+.event-content{
+	font-size: 1em;
+	position: relative;
+	top: 5em;
+}
+/*showcase*/
+.page-case{
+	padding: 8em 0;
+}
+.wrap-box{
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	padding: 3em;
+}
+.box-work{
+	width: 23.3em;
+	height: 14.4em;
+	background-color: #aaa;
+	margin: 0 3.18333333334em;
+	text-align: center;
+}
+.box-work h1{
+	font-size: 2em;
+	position: relative;
+	top: 6em;
+}
+.mark-play{
+	width: 0;
+	height: 0;
+	border-top: solid transparent 2em;
+	border-bottom: solid transparent 2em;
+	border-left: solid transparent 3em;
+	border-right: solid transparent 3em;
+	border-left-color: #fff; 
+	margin-left: 11.65em;
+	margin-top: 3.7em;
+	display: none; 
+}

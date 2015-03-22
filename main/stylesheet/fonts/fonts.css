@@ -1,0 +1,28 @@
+@font-face{
+	font-family: "gokuboso";
+	src: url(fonts/chogokubosogothic_5.ttf);
+}
+@font-face{
+	font-family: "focus";
+	src: url(fonts/Focus-Regular.ttf);
+}
+@font-face{
+	font-family: "anke";
+	src: url(fonts/Anke.ttf);
+}
+@font-face{
+	font-family: "dual";
+	src: url(fonts/Dual-300.otf);
+}
+.f-gokuboso{
+	font-family: "gokuboso";
+}
+.f-focus{
+	font-family: "focus";
+}
+.f-anke{
+	font-family: "anke";
+}
+.f-dual{
+	font-family: "dual";
+}
