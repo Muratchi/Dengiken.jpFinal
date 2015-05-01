@@ -3,7 +3,7 @@ $(function(){
 	var workbox = $('.box-work'),playArrow = $('.mark-play'),em = 'em';
 	workbox.hover(function(){
 		var index = $(this).index();
-		playArrow.eq(index).fadeIn();
+		playArrow.eq(index).stop().fadeIn();
 
 	},function(){
 		var index = $(this).index();	
